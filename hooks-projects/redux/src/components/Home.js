@@ -7,7 +7,7 @@ function Home(props) {
       <div className="cart-wrapper"></div>
       <div>
         <div className="btn-wrapper">
-            <button onClick={}></button>
+            <button onClick={()=>{props.addToCartHandler({pice:1000,name:'i phone 11'})}}>Add Iphone</button>
         </div>
       </div>
     </div>
